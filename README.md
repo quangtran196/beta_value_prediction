@@ -101,7 +101,7 @@ beta-oscillation-model/
 ### 1. Basic Training
 ```bash
 # Train with optimized hyperparameters
-python main.py --mode train --output_dir my_model
+python main.py --mode train 
 
 # Train with fewer epochs for testing
 python main.py --mode train --output_dir quick_test --epochs 20
